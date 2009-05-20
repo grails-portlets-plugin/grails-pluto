@@ -12,6 +12,6 @@ defined in the project.
     <resource>UrlMappings</resource>
   </resources>
   <dependencies>
-    <plugin name='portlets-pluto' version='0.1 &gt; *' />
+    <plugin name='portlets' version='0.2 &gt; * ' />
   </dependencies>
 </plugin>
