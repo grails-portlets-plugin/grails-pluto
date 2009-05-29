@@ -1,4 +1,4 @@
-<plugin name='pluto' version='0.1' grailsVersion='1.1 &gt; *'>
+<plugin name='pluto' version='0.2' grailsVersion='1.1 &gt; *'>
   <author>Kenji Nakamura</author>
   <authorEmail>kenji_nakamura@diva-america.com</authorEmail>
   <title>Pluto runtime</title>
@@ -12,6 +12,7 @@ defined in the project.
     <resource>UrlMappings</resource>
   </resources>
   <dependencies>
-    <plugin name='portlets' version='0.2 &gt; * ' />
+    <plugin name='portlets' version='0.3 &gt; * ' />
+    <plugin name='portletsPluto' version='0.1 &gt; * ' />
   </dependencies>
 </plugin>

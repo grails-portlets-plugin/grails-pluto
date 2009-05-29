@@ -14,14 +14,11 @@ import org.springframework.web.context.request.RequestContextHolder as RCH
 
 class PlutoGrailsPlugin {
     // the plugin version
-    def version = "0.1"
+    def version = "0.2"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.1 > *"
     // the other plugins this plugin depends on
-    // There is a bug to prevent a plugin with "-" from resolved in grails. 
-    // see http://jira.codehaus.org/browse/GRAILS-4586
-    //def dependsOn = ["portlets-pluto":"0.1 > * ", "portlets":"0.2 > * "]
-    def dependsOn = ["portlets":"0.2 > * "]
+    def dependsOn = [portlets:"0.3 > * ", portletsPluto:"0.1 > * "]
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
